@@ -2,8 +2,6 @@ import numpy as np
 from rlgym_sim.utils.gamestates import GameState
 from rlgym_ppo.util import MetricsLogger
 
-print("Test")
-
 class ExampleLogger(MetricsLogger):
     def _collect_metrics(self, game_state: GameState) -> list:
         return [game_state.players[0].car_data.linear_velocity,
@@ -91,5 +89,6 @@ if __name__ == "__main__":
                       standardize_obs=False,
                       save_every_ts=100_000,
                       timestep_limit=1_000_000_000,
+                      render=True,
                       log_to_wandb=True)
     learner.learn()     

@@ -1,0 +1,3 @@
+ERROR: Memory: bad allocation size 1600819036 bytes
+appMalloc: size=1600819036 (total=2 Mbytes) <- FArray::Empty: 1600819036 x 1 <- FString<< <- Name: 0 <- UnPackage::LoadNameTable3 <- UnPackage::UnPackage: TAGame/CookedPCConsole/AkAudio.upk, ver=868/32, game=ue3 <- UnPackage::LoadPackage(info): TAGame/CookedPCConsole/AkAudio.upk <- ScanContent <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1590
+
