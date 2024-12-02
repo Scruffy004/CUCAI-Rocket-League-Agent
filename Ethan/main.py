@@ -24,7 +24,7 @@ def drawMenu():
         exit()
 
 
-
+# Function to train a model given timesteps
 def trainModel(timesteps):
     # Create a gym environment (cartpole)
     environment_name = 'CartPole-v0'
