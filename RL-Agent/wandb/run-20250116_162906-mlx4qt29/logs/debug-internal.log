@@ -1,0 +1,20 @@
+{"time":"2025-01-16T16:29:06.1336981-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-16T16:29:06.1336981-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250116_162906-mlx4qt29\\logs\\debug-core.log"}
+{"time":"2025-01-16T16:29:06.5250406-05:00","level":"INFO","msg":"created new stream","id":"mlx4qt29"}
+{"time":"2025-01-16T16:29:06.5250406-05:00","level":"INFO","msg":"stream: started","id":"mlx4qt29"}
+{"time":"2025-01-16T16:29:06.5250406-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T16:29:06.5250406-05:00","level":"INFO","msg":"sender: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T16:29:06.5250406-05:00","level":"INFO","msg":"handler: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T16:29:07.0794423-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T17:16:12.880873-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/mlx4qt29/file_stream"}
+{"time":"2025-01-16T17:21:10.803818-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-16T17:26:41.5943262-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-16T18:01:34.8470706-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T18:01:34.8584222-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T18:01:35.4462129-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T18:01:35.5635593-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-16T18:01:36.5781281-05:00","level":"INFO","msg":"stream: closing","id":"mlx4qt29"}
+{"time":"2025-01-16T18:01:36.5781281-05:00","level":"INFO","msg":"handler: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T18:01:36.5781281-05:00","level":"INFO","msg":"sender: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T18:01:36.5781281-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T18:01:36.5781281-05:00","level":"INFO","msg":"stream: closed","id":"mlx4qt29"}
