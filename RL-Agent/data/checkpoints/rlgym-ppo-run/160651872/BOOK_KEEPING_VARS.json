@@ -1,0 +1,52 @@
+{
+    "cumulative_timesteps": 160651872,
+    "cumulative_model_updates": 9624,
+    "policy_average_reward": 4520.382254546281,
+    "epoch": 3209,
+    "ts_since_last_save": 100060,
+    "reward_running_stats": {
+        "mean": [
+            26.806280143448483
+        ],
+        "var": [
+            1647021323.200095
+        ],
+        "shape": [
+            1
+        ],
+        "count": 481800
+    },
+    "wandb_run_id": "mlx4qt29",
+    "wandb_project": "rlgym-ppo",
+    "wandb_entity": "joalbom",
+    "wandb_group": "unnamed-runs",
+    "wandb_config": {
+        "n_proc": 32,
+        "min_inference_size": 29,
+        "timestep_limit": 1000000000,
+        "exp_buffer_size": 150000,
+        "ts_per_iteration": 50000,
+        "standardize_returns": true,
+        "standardize_obs": false,
+        "policy_layer_sizes": [
+            256,
+            256,
+            256
+        ],
+        "critic_layer_sizes": [
+            256,
+            256,
+            256
+        ],
+        "ppo_epochs": 1,
+        "ppo_batch_size": 50000,
+        "ppo_minibatch_size": 50000,
+        "ppo_ent_coef": 0.001,
+        "ppo_clip_range": 0.2,
+        "gae_lambda": 0.95,
+        "gae_gamma": 0.99,
+        "policy_lr": 0.0002,
+        "critic_lr": 0.0002,
+        "shm_buffer_size": 8192
+    }
+}

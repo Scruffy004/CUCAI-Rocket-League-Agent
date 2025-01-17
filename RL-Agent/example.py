@@ -1,6 +1,8 @@
 import numpy as np
+import os
 from rlgym_sim.utils.gamestates import GameState
 from rlgym_ppo.util import MetricsLogger
+
 
 class ExampleLogger(MetricsLogger):
     def _collect_metrics(self, game_state: GameState) -> list:
@@ -24,12 +26,12 @@ class ExampleLogger(MetricsLogger):
 def build_rocketsim_env():
     import rlgym_sim
     from rlgym_sim.utils.reward_functions import CombinedReward
-    from rlgym_sim.utils.reward_functions.common_rewards import VelocityPlayerToBallReward, VelocityBallToGoalReward, \
-        EventReward
+    from rlgym_sim.utils.reward_functions.common_rewards import VelocityPlayerToBallReward, VelocityBallToGoalReward, FaceBallReward, EventReward
+    from custom_rewards import JumpTouchReward
     from rlgym_sim.utils.obs_builders import DefaultObs
     from rlgym_sim.utils.terminal_conditions.common_conditions import NoTouchTimeoutCondition, GoalScoredCondition
     from rlgym_sim.utils import common_values
-    from rlgym_sim.utils.action_parsers import ContinuousAction
+    from your_act import LookupAction
 
     spawn_opponents = True
     team_size = 1
@@ -38,13 +40,15 @@ def build_rocketsim_env():
     timeout_seconds = 10
     timeout_ticks = int(round(timeout_seconds * game_tick_rate / tick_skip))
 
-    action_parser = ContinuousAction()
+
+    action_parser = LookupAction()
     terminal_conditions = [NoTouchTimeoutCondition(timeout_ticks), GoalScoredCondition()]
 
     rewards_to_combine = (VelocityPlayerToBallReward(),
-                          VelocityBallToGoalReward(),
-                          EventReward(team_goal=1, concede=-1, demo=0.1))
-    reward_weights = (0.01, 0.1, 10.0)
+                          EventReward(touch=1, goal=5),
+                          FaceBallReward(),
+                          JumpTouchReward())
+    reward_weights = (10.0, 1.0, 1.0, 0.15)
 
     reward_fn = CombinedReward(reward_functions=rewards_to_combine,
                                reward_weights=reward_weights)
@@ -75,6 +79,7 @@ if __name__ == "__main__":
     # educated guess - could be slightly higher or lower
     min_inference_size = max(1, int(round(n_proc * 0.9)))
 
+
     learner = Learner(build_rocketsim_env,
                       n_proc=n_proc,
                       min_inference_size=min_inference_size,
@@ -89,6 +94,9 @@ if __name__ == "__main__":
                       standardize_obs=False,
                       save_every_ts=100_000,
                       timestep_limit=1_000_000_000,
-                      render=True,
-                      log_to_wandb=True)
-    learner.learn()     
+                      log_to_wandb=True,
+                      policy_lr=2e-4,
+                      critic_lr=2e-4,
+                      add_unix_timestamp=False,
+                      device="cuda")
+    learner.learn()
