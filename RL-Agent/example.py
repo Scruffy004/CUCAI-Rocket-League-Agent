@@ -26,8 +26,8 @@ class ExampleLogger(MetricsLogger):
 def build_rocketsim_env():
     import rlgym_sim
     from rlgym_sim.utils.reward_functions import CombinedReward
-    from rlgym_sim.utils.reward_functions.common_rewards import VelocityPlayerToBallReward, VelocityBallToGoalReward, FaceBallReward, EventReward
-    from custom_rewards import JumpTouchReward
+    from rlgym_sim.utils.reward_functions.common_rewards import VelocityBallToGoalReward, FaceBallReward, EventReward, AlignBallGoal, LiuDistanceBallToGoalReward
+    from custom_rewards import JumpTouchReward, InAirReward, TouchVelReward, SpeedTowardBallReward
     from rlgym_sim.utils.obs_builders import DefaultObs
     from rlgym_sim.utils.terminal_conditions.common_conditions import NoTouchTimeoutCondition, GoalScoredCondition
     from rlgym_sim.utils import common_values
@@ -44,14 +44,13 @@ def build_rocketsim_env():
     action_parser = LookupAction()
     terminal_conditions = [NoTouchTimeoutCondition(timeout_ticks), GoalScoredCondition()]
 
-    rewards_to_combine = (VelocityPlayerToBallReward(),
-                          EventReward(touch=1, goal=5),
-                          FaceBallReward(),
-                          JumpTouchReward())
-    reward_weights = (10.0, 1.0, 1.0, 0.15)
-
-    reward_fn = CombinedReward(reward_functions=rewards_to_combine,
-                               reward_weights=reward_weights)
+    reward_fn = CombinedReward.from_zipped((EventReward(goal=4, concede=-1), 50),
+                          (InAirReward(), 0.25),
+                          (VelocityBallToGoalReward(), 10),
+                          (SpeedTowardBallReward(), 5),
+                          (TouchVelReward(), 15),
+                          (LiuDistanceBallToGoalReward(), 3),
+                          )
 
     obs_builder = DefaultObs(
         pos_coef=np.asarray([1 / common_values.SIDE_WALL_X, 1 / common_values.BACK_NET_Y, 1 / common_values.CEILING_Z]),
@@ -79,6 +78,8 @@ if __name__ == "__main__":
     # educated guess - could be slightly higher or lower
     min_inference_size = max(1, int(round(n_proc * 0.9)))
 
+    latest_checkpoint_dir = "data/checkpoints/rlgym-ppo-run/" + str(max(os.listdir("data/checkpoints/rlgym-ppo-run"), key=lambda d: int(d)))
+
 
     learner = Learner(build_rocketsim_env,
                       n_proc=n_proc,
@@ -89,14 +90,17 @@ if __name__ == "__main__":
                       exp_buffer_size=150000,
                       ppo_minibatch_size=50000,
                       ppo_ent_coef=0.001,
-                      ppo_epochs=1,
+                      ppo_epochs=2,
                       standardize_returns=True,
                       standardize_obs=False,
                       save_every_ts=100_000,
-                      timestep_limit=1_000_000_000,
+                      timestep_limit=10e15,
                       log_to_wandb=True,
-                      policy_lr=2e-4,
-                      critic_lr=2e-4,
+                      policy_lr=1e-4,
+                      critic_lr=1e-4,
+                      policy_layer_sizes=(1024, 1024, 1024, 1024, 512),
+                      critic_layer_sizes=(2048, 1024, 1024, 1024, 512),
                       add_unix_timestamp=False,
+                      checkpoint_load_folder=latest_checkpoint_dir,
                       device="cuda")
     learner.learn()

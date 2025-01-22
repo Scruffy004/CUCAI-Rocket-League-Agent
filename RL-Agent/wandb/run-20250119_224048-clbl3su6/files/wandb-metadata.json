@@ -1,0 +1,43 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "3.9.10",
+  "startedAt":  "2025-01-20T03:40:48.186888Z",
+  "program":  "D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\example.py",
+  "codePath":  "RL-Agent\\example.py",
+  "git":  {
+    "remote":  "https://github.com/Scruffy004/CUCAI-Rocket-League-Agent.git",
+    "commit":  "222a14b1c90628c778c78d704a00a9025773ad99"
+  },
+  "email":  "joalbom14@gmail.com",
+  "root":  "D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent",
+  "host":  "DESKTOP-1LDNCMQ",
+  "username":  "joalb",
+  "executable":  "d:\\RLRL\\.venv\\Scripts\\python.exe",
+  "codePathLocal":  "example.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 3060 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "2000263573504",
+      "used":  "1410743877632"
+    }
+  },
+  "memory":  {
+    "total":  "33488449536"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3060 Ti",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  4864,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

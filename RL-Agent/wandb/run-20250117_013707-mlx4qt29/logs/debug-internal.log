@@ -1,0 +1,17 @@
+{"time":"2025-01-17T01:37:07.7147768-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-17T01:37:07.7152908-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250117_013707-mlx4qt29\\logs\\debug-core.log"}
+{"time":"2025-01-17T01:37:07.8310773-05:00","level":"INFO","msg":"created new stream","id":"mlx4qt29"}
+{"time":"2025-01-17T01:37:07.8310773-05:00","level":"INFO","msg":"stream: started","id":"mlx4qt29"}
+{"time":"2025-01-17T01:37:07.8310773-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-17T01:37:07.8310773-05:00","level":"INFO","msg":"sender: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-17T01:37:07.8310773-05:00","level":"INFO","msg":"handler: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-17T01:37:08.1155795-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T02:14:29.877798-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T02:14:29.8783478-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T02:14:30.4763938-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T02:14:30.5778764-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-17T02:14:31.5941-05:00","level":"INFO","msg":"stream: closing","id":"mlx4qt29"}
+{"time":"2025-01-17T02:14:31.5941-05:00","level":"INFO","msg":"handler: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-17T02:14:31.5941-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-17T02:14:31.5941-05:00","level":"INFO","msg":"sender: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-17T02:14:31.5941-05:00","level":"INFO","msg":"stream: closed","id":"mlx4qt29"}

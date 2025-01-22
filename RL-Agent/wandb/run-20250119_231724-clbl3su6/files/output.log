@@ -1,0 +1,84 @@
+Checkpoint loaded!
+Learner successfully initialized!
+Press (p) to pause (c) to checkpoint, (q) to checkpoint and quit (after next iteration)
+
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 3,784.10275
+Policy Entropy: 2.00039
+Value Function Loss: 0.05658
+
+Mean KL Divergence: 0.00036
+SB3 Clip Fraction: 0.00196
+Policy Update Magnitude: 0.12347
+Value Function Update Magnitude: 0.11929
+
+Collected Steps per Second: 16,477.07389
+Overall Steps per Second: 11,225.04329
+
+Timestep Collection Time: 3.03500
+Timestep Consumption Time: 1.42003
+PPO Batch Consumption Time: 0.37772
+Total Iteration Time: 4.45504
+
+Cumulative Model Updates: 116,710
+Cumulative Timesteps: 974,105,568
+
+Timesteps Collected: 50,008
+--------END ITERATION REPORT--------
+
+
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 6,189.59486
+Policy Entropy: 1.98665
+Value Function Loss: 0.05833
+
+Mean KL Divergence: 0.00289
+SB3 Clip Fraction: 0.02774
+Policy Update Magnitude: 0.25083
+Value Function Update Magnitude: 0.22754
+
+Collected Steps per Second: 18,243.38008
+Overall Steps per Second: 10,709.06551
+
+Timestep Collection Time: 2.74193
+Timestep Consumption Time: 1.92907
+PPO Batch Consumption Time: 0.30849
+Total Iteration Time: 4.67100
+
+Cumulative Model Updates: 116,714
+Cumulative Timesteps: 974,155,590
+
+Timesteps Collected: 50,022
+--------END ITERATION REPORT--------
+
+
+Saving checkpoint 974155590...
+Checkpoint 974155590 saved!
+
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 6,866.40932
+Policy Entropy: 1.97959
+Value Function Loss: 0.05533
+
+Mean KL Divergence: 0.00633
+SB3 Clip Fraction: 0.07038
+Policy Update Magnitude: 0.24874
+Value Function Update Magnitude: 0.23165
+
+Collected Steps per Second: 18,964.26735
+Overall Steps per Second: 11,217.65679
+
+Timestep Collection Time: 2.63706
+Timestep Consumption Time: 1.82109
+PPO Batch Consumption Time: 0.28935
+Total Iteration Time: 4.45815
+
+Cumulative Model Updates: 116,718
+Cumulative Timesteps: 974,205,600
+
+Timesteps Collected: 50,010
+--------END ITERATION REPORT--------
+
+
+Saving checkpoint 974205600...
+Checkpoint 974205600 saved!

@@ -1,0 +1,18 @@
+{"time":"2025-01-17T23:06:05.7283572-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-17T23:06:05.7283572-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250117_230605-clbl3su6\\logs\\debug-core.log"}
+{"time":"2025-01-17T23:06:05.8472023-05:00","level":"INFO","msg":"created new stream","id":"clbl3su6"}
+{"time":"2025-01-17T23:06:05.8478481-05:00","level":"INFO","msg":"stream: started","id":"clbl3su6"}
+{"time":"2025-01-17T23:06:05.8478481-05:00","level":"INFO","msg":"handler: started","stream_id":"clbl3su6"}
+{"time":"2025-01-17T23:06:05.8478481-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"clbl3su6"}
+{"time":"2025-01-17T23:06:05.8478481-05:00","level":"INFO","msg":"sender: started","stream_id":"clbl3su6"}
+{"time":"2025-01-17T23:06:06.0754895-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-18T01:54:05.5184183-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-18T13:28:55.8521163-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-18T13:28:55.9296678-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-18T13:28:56.8361266-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.6680378},{"desc":"uploading output.log","runtime_seconds":0.6371839,"progress":"320.0KB/5.6MB"}],"total_operations":2}}
+{"time":"2025-01-18T13:28:57.309654-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-18T13:28:58.5077905-05:00","level":"INFO","msg":"stream: closing","id":"clbl3su6"}
+{"time":"2025-01-18T13:28:58.5109459-05:00","level":"INFO","msg":"handler: closed","stream_id":"clbl3su6"}
+{"time":"2025-01-18T13:28:58.5129874-05:00","level":"INFO","msg":"sender: closed","stream_id":"clbl3su6"}
+{"time":"2025-01-18T13:28:58.5109459-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"clbl3su6"}
+{"time":"2025-01-18T13:28:58.5129874-05:00","level":"INFO","msg":"stream: closed","id":"clbl3su6"}

@@ -1,0 +1,17 @@
+{"time":"2025-01-17T13:09:36.6785421-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-17T13:09:36.6785421-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250117_130936-2przdse2\\logs\\debug-core.log"}
+{"time":"2025-01-17T13:09:36.8980386-05:00","level":"INFO","msg":"created new stream","id":"2przdse2"}
+{"time":"2025-01-17T13:09:36.8980386-05:00","level":"INFO","msg":"stream: started","id":"2przdse2"}
+{"time":"2025-01-17T13:09:36.8980386-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"2przdse2"}
+{"time":"2025-01-17T13:09:36.8980386-05:00","level":"INFO","msg":"sender: started","stream_id":"2przdse2"}
+{"time":"2025-01-17T13:09:36.8980386-05:00","level":"INFO","msg":"handler: started","stream_id":"2przdse2"}
+{"time":"2025-01-17T13:09:37.1243479-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T14:15:35.3882439-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T14:15:35.3882439-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T14:15:35.9783541-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T14:15:36.2039939-05:00","level":"INFO","msg":"stream: closing","id":"2przdse2"}
+{"time":"2025-01-17T14:15:36.2039939-05:00","level":"INFO","msg":"handler: closed","stream_id":"2przdse2"}
+{"time":"2025-01-17T14:15:36.2039939-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2przdse2"}
+{"time":"2025-01-17T14:15:36.2039939-05:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-01-17T14:15:36.2039939-05:00","level":"INFO","msg":"sender: closed","stream_id":"2przdse2"}
+{"time":"2025-01-17T14:15:36.2039939-05:00","level":"INFO","msg":"stream: closed","id":"2przdse2"}

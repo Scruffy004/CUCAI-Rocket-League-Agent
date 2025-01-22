@@ -1,0 +1,17 @@
+{"time":"2025-01-16T19:39:12.8765192-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-16T19:39:12.8765192-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250116_193912-mlx4qt29\\logs\\debug-core.log"}
+{"time":"2025-01-16T19:39:12.9926804-05:00","level":"INFO","msg":"created new stream","id":"mlx4qt29"}
+{"time":"2025-01-16T19:39:12.9926804-05:00","level":"INFO","msg":"stream: started","id":"mlx4qt29"}
+{"time":"2025-01-16T19:39:12.9926804-05:00","level":"INFO","msg":"handler: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T19:39:12.9926804-05:00","level":"INFO","msg":"sender: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T19:39:12.9926804-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T19:39:13.3274067-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T21:16:52.7047179-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T21:16:52.8235601-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T21:16:53.6673186-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.7737795},{"desc":"uploading output.log","runtime_seconds":0.6455124,"progress":"64.0KB/986.0KB"}],"total_operations":2}}
+{"time":"2025-01-16T21:16:55.2371451-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T21:16:56.3874913-05:00","level":"INFO","msg":"stream: closing","id":"mlx4qt29"}
+{"time":"2025-01-16T21:16:56.3874913-05:00","level":"INFO","msg":"handler: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T21:16:56.3874913-05:00","level":"INFO","msg":"sender: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T21:16:56.3874913-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mlx4qt29"}
+{"time":"2025-01-16T21:16:56.3879947-05:00","level":"INFO","msg":"stream: closed","id":"mlx4qt29"}

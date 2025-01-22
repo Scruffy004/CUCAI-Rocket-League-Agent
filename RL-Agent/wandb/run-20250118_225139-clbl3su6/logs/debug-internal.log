@@ -1,0 +1,33 @@
+{"time":"2025-01-18T22:51:39.5741729-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-18T22:51:39.5741729-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250118_225139-clbl3su6\\logs\\debug-core.log"}
+{"time":"2025-01-18T22:51:39.8789476-05:00","level":"INFO","msg":"created new stream","id":"clbl3su6"}
+{"time":"2025-01-18T22:51:39.8789476-05:00","level":"INFO","msg":"stream: started","id":"clbl3su6"}
+{"time":"2025-01-18T22:51:39.8789476-05:00","level":"INFO","msg":"handler: started","stream_id":"clbl3su6"}
+{"time":"2025-01-18T22:51:39.8789476-05:00","level":"INFO","msg":"sender: started","stream_id":"clbl3su6"}
+{"time":"2025-01-18T22:51:39.8789476-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"clbl3su6"}
+{"time":"2025-01-18T22:51:40.1610572-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-18T22:56:15.2243879-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T22:56:22.5964015-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T22:56:32.5646806-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T22:57:55.9081632-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-18T22:58:32.1680859-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T22:58:53.0124387-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T22:59:00.5263518-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T22:59:03.1221775-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-18T22:59:35.2304158-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-18T23:00:03.0826269-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T23:00:10.5251919-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T23:01:36.5210151-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T23:02:21.3172195-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T23:03:12.4036652-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-18T23:03:26.6001581-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T23:03:33.7429517-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/clbl3su6/file_stream"}
+{"time":"2025-01-18T23:25:03.8618885-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-18T23:25:03.9315215-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-18T23:25:04.5692-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-18T23:25:04.6873171-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-18T23:25:05.7326841-05:00","level":"INFO","msg":"stream: closing","id":"clbl3su6"}
+{"time":"2025-01-18T23:25:05.7326841-05:00","level":"INFO","msg":"handler: closed","stream_id":"clbl3su6"}
+{"time":"2025-01-18T23:25:05.7326841-05:00","level":"INFO","msg":"sender: closed","stream_id":"clbl3su6"}
+{"time":"2025-01-18T23:25:05.7326841-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"clbl3su6"}
+{"time":"2025-01-18T23:25:05.7326841-05:00","level":"INFO","msg":"stream: closed","id":"clbl3su6"}
