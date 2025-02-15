@@ -1,0 +1,15 @@
+{"time":"2025-02-10T02:56:55.1254354-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-10T02:56:55.1254354-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250210_025655-zswxumtd\\logs\\debug-core.log"}
+{"time":"2025-02-10T02:56:55.2420644-05:00","level":"INFO","msg":"created new stream","id":"zswxumtd"}
+{"time":"2025-02-10T02:56:55.2420644-05:00","level":"INFO","msg":"stream: started","id":"zswxumtd"}
+{"time":"2025-02-10T02:56:55.2420644-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"zswxumtd"}
+{"time":"2025-02-10T02:56:55.2420644-05:00","level":"INFO","msg":"sender: started","stream_id":"zswxumtd"}
+{"time":"2025-02-10T02:56:55.2420644-05:00","level":"INFO","msg":"handler: started","stream_id":"zswxumtd"}
+{"time":"2025-02-10T02:56:55.5233353-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-10T09:12:10.4982236-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-10T09:17:10.8908863-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-10T09:18:56.2294242-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-02-10T09:21:26.6323944-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-10T09:42:57.8026865-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-10T09:57:08.1886163-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/zswxumtd/file_stream"}
+{"time":"2025-02-10T13:18:35.5807921-05:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/zswxumtd/file_stream"}

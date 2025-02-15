@@ -1,0 +1,8 @@
+{"time":"2025-02-13T03:59:25.5845522-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-13T03:59:25.5845522-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250213_035925-zswxumtd\\logs\\debug-core.log"}
+{"time":"2025-02-13T03:59:25.7024664-05:00","level":"INFO","msg":"created new stream","id":"zswxumtd"}
+{"time":"2025-02-13T03:59:25.7029723-05:00","level":"INFO","msg":"stream: started","id":"zswxumtd"}
+{"time":"2025-02-13T03:59:25.7029723-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"zswxumtd"}
+{"time":"2025-02-13T03:59:25.7029723-05:00","level":"INFO","msg":"handler: started","stream_id":"zswxumtd"}
+{"time":"2025-02-13T03:59:25.7029723-05:00","level":"INFO","msg":"sender: started","stream_id":"zswxumtd"}
+{"time":"2025-02-13T03:59:25.9857992-05:00","level":"INFO","msg":"Starting system monitor"}

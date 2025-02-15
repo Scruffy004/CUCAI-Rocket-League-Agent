@@ -1,0 +1,17 @@
+{"time":"2025-02-04T02:05:14.1464607-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-04T02:05:14.1464607-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250204_020514-zswxumtd\\logs\\debug-core.log"}
+{"time":"2025-02-04T02:05:14.2663058-05:00","level":"INFO","msg":"created new stream","id":"zswxumtd"}
+{"time":"2025-02-04T02:05:14.2663058-05:00","level":"INFO","msg":"stream: started","id":"zswxumtd"}
+{"time":"2025-02-04T02:05:14.2663058-05:00","level":"INFO","msg":"sender: started","stream_id":"zswxumtd"}
+{"time":"2025-02-04T02:05:14.2663058-05:00","level":"INFO","msg":"handler: started","stream_id":"zswxumtd"}
+{"time":"2025-02-04T02:05:14.2663058-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"zswxumtd"}
+{"time":"2025-02-04T02:05:14.6145543-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-04T11:19:45.7444259-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-04T11:19:45.8140971-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-04T11:19:46.739557-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":2.1259563},{"desc":"saving job artifact","runtime_seconds":0.7331741},{"desc":"uploading output.log","runtime_seconds":0.632363,"progress":"208.0KB/4.2MB"}],"total_operations":3}}
+{"time":"2025-02-04T11:19:47.2605981-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-04T11:20:02.945622-05:00","level":"INFO","msg":"stream: closing","id":"zswxumtd"}
+{"time":"2025-02-04T11:20:02.945622-05:00","level":"INFO","msg":"handler: closed","stream_id":"zswxumtd"}
+{"time":"2025-02-04T11:20:02.945622-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zswxumtd"}
+{"time":"2025-02-04T11:20:02.945622-05:00","level":"INFO","msg":"sender: closed","stream_id":"zswxumtd"}
+{"time":"2025-02-04T11:20:02.945622-05:00","level":"INFO","msg":"stream: closed","id":"zswxumtd"}
