@@ -1,0 +1,17 @@
+{"time":"2025-02-28T23:44:50.7110708-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-28T23:44:50.7110708-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250228_234450-div8cync\\logs\\debug-core.log"}
+{"time":"2025-02-28T23:44:51.0915586-05:00","level":"INFO","msg":"created new stream","id":"div8cync"}
+{"time":"2025-02-28T23:44:51.0925432-05:00","level":"INFO","msg":"stream: started","id":"div8cync"}
+{"time":"2025-02-28T23:44:51.0925432-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"div8cync"}
+{"time":"2025-02-28T23:44:51.0925432-05:00","level":"INFO","msg":"sender: started","stream_id":"div8cync"}
+{"time":"2025-02-28T23:44:51.0925432-05:00","level":"INFO","msg":"handler: started","stream_id":"div8cync"}
+{"time":"2025-02-28T23:44:51.7566022-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-01T02:08:57.2203493-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-01T02:08:57.3555047-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-01T02:08:58.0529926-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-01T02:08:58.1649107-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-01T02:08:59.1852951-05:00","level":"INFO","msg":"stream: closing","id":"div8cync"}
+{"time":"2025-03-01T02:08:59.1852951-05:00","level":"INFO","msg":"handler: closed","stream_id":"div8cync"}
+{"time":"2025-03-01T02:08:59.1852951-05:00","level":"INFO","msg":"sender: closed","stream_id":"div8cync"}
+{"time":"2025-03-01T02:08:59.1852951-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"div8cync"}
+{"time":"2025-03-01T02:08:59.1852951-05:00","level":"INFO","msg":"stream: closed","id":"div8cync"}

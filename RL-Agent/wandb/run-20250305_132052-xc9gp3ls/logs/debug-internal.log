@@ -1,0 +1,18 @@
+{"time":"2025-03-05T13:20:52.1036986-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-05T13:20:52.1036986-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250305_132052-xc9gp3ls\\logs\\debug-core.log"}
+{"time":"2025-03-05T13:20:52.5733076-05:00","level":"INFO","msg":"created new stream","id":"xc9gp3ls"}
+{"time":"2025-03-05T13:20:52.5741195-05:00","level":"INFO","msg":"stream: started","id":"xc9gp3ls"}
+{"time":"2025-03-05T13:20:52.5741195-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-05T13:20:52.5741195-05:00","level":"INFO","msg":"handler: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-05T13:20:52.5741195-05:00","level":"INFO","msg":"sender: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-05T13:20:53.0460846-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T19:03:30.157909-05:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-06T00:58:49.4549966-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:58:49.4839965-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:58:50.4359056-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4685754,"progress":"5.2MB/5.2MB"}],"total_operations":1}}
+{"time":"2025-03-06T00:58:50.4793137-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:58:51.6273858-05:00","level":"INFO","msg":"stream: closing","id":"xc9gp3ls"}
+{"time":"2025-03-06T00:58:51.6273858-05:00","level":"INFO","msg":"handler: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-06T00:58:51.6273858-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-06T00:58:51.6273858-05:00","level":"INFO","msg":"sender: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-06T00:58:51.6273858-05:00","level":"INFO","msg":"stream: closed","id":"xc9gp3ls"}

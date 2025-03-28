@@ -1,0 +1,33 @@
+2025-03-06 01:46:36,461 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-03-06 01:46:36,461 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Configure stats pid to 36120
+2025-03-06 01:46:36,461 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Loading settings from C:\Users\joalb\.config\wandb\settings
+2025-03-06 01:46:36,461 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Loading settings from D:\RLRL\CUCAI-Rocket-League-Agent\RL-Agent\wandb\settings
+2025-03-06 01:46:36,461 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-03-06 01:46:36,461 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': 'online', '_disable_service': None}
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'RL-Agent\\example.py', 'program_abspath': 'D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\example.py', 'program': 'D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\example.py'}
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_init.py:_log_setup():533] Logging user logs to D:\RLRL\CUCAI-Rocket-League-Agent\RL-Agent\wandb\run-20250306_014636-xc9gp3ls\logs\debug.log
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_init.py:_log_setup():534] Logging internal logs to D:\RLRL\CUCAI-Rocket-League-Agent\RL-Agent\wandb\run-20250306_014636-xc9gp3ls\logs\debug-internal.log
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_init.py:init():619] calling init triggers
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'n_proc': 32, 'min_inference_size': 29, 'timestep_limit': 1e+22, 'exp_buffer_size': 150000, 'ts_per_iteration': 50000, 'standardize_returns': True, 'standardize_obs': False, 'policy_layer_sizes': [1024, 1024, 1024, 1024, 512], 'critic_layer_sizes': [2048, 1024, 1024, 1024, 512], 'ppo_epochs': 2, 'ppo_batch_size': 50000, 'ppo_minibatch_size': 50000, 'ppo_ent_coef': 0.01, 'ppo_clip_range': 0.2, 'gae_lambda': 0.95, 'gae_gamma': 0.99, 'policy_lr': 0.0002, 'critic_lr': 0.0002, 'shm_buffer_size': 8192}
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_init.py:init():669] starting backend
+2025-03-06 01:46:36,462 INFO    MainThread:36120 [wandb_init.py:init():673] sending inform_init request
+2025-03-06 01:46:36,466 INFO    MainThread:36120 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-03-06 01:46:36,466 INFO    MainThread:36120 [wandb_init.py:init():686] backend started and connected
+2025-03-06 01:46:36,475 INFO    MainThread:36120 [wandb_init.py:init():781] updated telemetry
+2025-03-06 01:46:36,532 INFO    MainThread:36120 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2025-03-06 01:46:37,155 INFO    MainThread:36120 [wandb_init.py:init():859] run resumed
+2025-03-06 01:46:37,169 INFO    MainThread:36120 [wandb_init.py:init():867] starting run threads in backend
+2025-03-06 01:46:37,218 INFO    MainThread:36120 [wandb_run.py:_console_start():2456] atexit reg
+2025-03-06 01:46:37,218 INFO    MainThread:36120 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2025-03-06 01:46:37,218 INFO    MainThread:36120 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-03-06 01:46:37,218 INFO    MainThread:36120 [wandb_run.py:_redirect():2395] Redirects installed.
+2025-03-06 01:46:37,220 INFO    MainThread:36120 [wandb_init.py:init():911] run started, returning control to user process
+2025-03-07 00:27:54,844 INFO    MainThread:36120 [wandb_run.py:_finish():2155] finishing run joalbom/rlgym-ppo/xc9gp3ls
+2025-03-07 00:27:54,860 INFO    MainThread:36120 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2025-03-07 00:27:54,860 INFO    MainThread:36120 [wandb_run.py:_restore():2402] restore
+2025-03-07 00:27:54,860 INFO    MainThread:36120 [wandb_run.py:_restore():2408] restore done
+2025-03-07 00:28:05,920 INFO    MainThread:36120 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2025-03-07 00:28:05,921 INFO    MainThread:36120 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2025-03-07 00:28:05,938 INFO    MainThread:36120 [wandb_run.py:_footer_sync_info():3921] logging synced files

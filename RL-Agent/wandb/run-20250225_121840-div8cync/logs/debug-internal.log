@@ -1,0 +1,20 @@
+{"time":"2025-02-25T12:18:40.6854629-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-25T12:18:40.6854629-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250225_121840-div8cync\\logs\\debug-core.log"}
+{"time":"2025-02-25T12:18:40.8021382-05:00","level":"INFO","msg":"created new stream","id":"div8cync"}
+{"time":"2025-02-25T12:18:40.8026451-05:00","level":"INFO","msg":"stream: started","id":"div8cync"}
+{"time":"2025-02-25T12:18:40.8026451-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"div8cync"}
+{"time":"2025-02-25T12:18:40.8026451-05:00","level":"INFO","msg":"handler: started","stream_id":"div8cync"}
+{"time":"2025-02-25T12:18:40.8026451-05:00","level":"INFO","msg":"sender: started","stream_id":"div8cync"}
+{"time":"2025-02-25T12:18:41.2192965-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-25T13:39:59.9432158-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-25T14:10:47.4125548-05:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/div8cync/file_stream"}
+{"time":"2025-02-25T16:31:07.4327156-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-25T19:18:29.775762-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-25T19:18:29.8274817-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-25T19:18:30.5656643-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-25T19:18:30.6854525-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-02-25T19:18:31.7208996-05:00","level":"INFO","msg":"stream: closing","id":"div8cync"}
+{"time":"2025-02-25T19:18:31.7208996-05:00","level":"INFO","msg":"handler: closed","stream_id":"div8cync"}
+{"time":"2025-02-25T19:18:31.7208996-05:00","level":"INFO","msg":"sender: closed","stream_id":"div8cync"}
+{"time":"2025-02-25T19:18:31.7208996-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"div8cync"}
+{"time":"2025-02-25T19:18:31.7208996-05:00","level":"INFO","msg":"stream: closed","id":"div8cync"}

@@ -1,0 +1,22 @@
+{"time":"2025-03-06T01:46:36.4679644-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-06T01:46:36.4679644-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250306_014636-xc9gp3ls\\logs\\debug-core.log"}
+{"time":"2025-03-06T01:46:36.5893201-05:00","level":"INFO","msg":"created new stream","id":"xc9gp3ls"}
+{"time":"2025-03-06T01:46:36.5893201-05:00","level":"INFO","msg":"stream: started","id":"xc9gp3ls"}
+{"time":"2025-03-06T01:46:36.5893201-05:00","level":"INFO","msg":"handler: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-06T01:46:36.5893201-05:00","level":"INFO","msg":"sender: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-06T01:46:36.5893201-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-06T01:46:37.1751799-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T12:50:37.2451428-05:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-06T15:38:56.354987-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-06T15:45:39.3906721-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-06T18:06:17.4816435-05:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-06T18:07:19.8423174-05:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-07T00:27:54.9064838-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T00:27:55.0598467-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T00:27:55.8945976-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.572711},{"desc":"uploading output.log","runtime_seconds":0.4815488,"progress":"320.0KB/9.6MB"}],"total_operations":2}}
+{"time":"2025-03-07T00:28:04.7491328-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T00:28:05.9395203-05:00","level":"INFO","msg":"stream: closing","id":"xc9gp3ls"}
+{"time":"2025-03-07T00:28:05.9395203-05:00","level":"INFO","msg":"handler: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-07T00:28:05.9395203-05:00","level":"INFO","msg":"sender: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-07T00:28:05.9395203-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-07T00:28:05.9395203-05:00","level":"INFO","msg":"stream: closed","id":"xc9gp3ls"}

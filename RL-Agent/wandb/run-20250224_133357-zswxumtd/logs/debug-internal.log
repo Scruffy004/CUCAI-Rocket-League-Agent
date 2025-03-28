@@ -1,0 +1,18 @@
+{"time":"2025-02-24T13:33:57.4202517-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-24T13:33:57.4202517-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250224_133357-zswxumtd\\logs\\debug-core.log"}
+{"time":"2025-02-24T13:33:57.9630692-05:00","level":"INFO","msg":"created new stream","id":"zswxumtd"}
+{"time":"2025-02-24T13:33:57.9640728-05:00","level":"INFO","msg":"stream: started","id":"zswxumtd"}
+{"time":"2025-02-24T13:33:57.9640728-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"zswxumtd"}
+{"time":"2025-02-24T13:33:57.9640728-05:00","level":"INFO","msg":"sender: started","stream_id":"zswxumtd"}
+{"time":"2025-02-24T13:33:57.9640728-05:00","level":"INFO","msg":"handler: started","stream_id":"zswxumtd"}
+{"time":"2025-02-24T13:33:58.5035381-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T13:57:33.5248383-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/zswxumtd/file_stream"}
+{"time":"2025-02-24T15:40:31.121992-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T15:40:31.1749289-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-24T15:40:32.0294196-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-24T15:40:32.111917-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.0824974}],"total_operations":1}}
+{"time":"2025-02-24T15:40:33.1843677-05:00","level":"INFO","msg":"stream: closing","id":"zswxumtd"}
+{"time":"2025-02-24T15:40:33.1843838-05:00","level":"INFO","msg":"handler: closed","stream_id":"zswxumtd"}
+{"time":"2025-02-24T15:40:33.1843838-05:00","level":"INFO","msg":"sender: closed","stream_id":"zswxumtd"}
+{"time":"2025-02-24T15:40:33.1843838-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zswxumtd"}
+{"time":"2025-02-24T15:40:33.1843838-05:00","level":"INFO","msg":"stream: closed","id":"zswxumtd"}

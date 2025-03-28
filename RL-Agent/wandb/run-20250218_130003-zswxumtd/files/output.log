@@ -1,0 +1,31 @@
+Checkpoint loaded!
+Learner successfully initialized!
+Press (p) to pause (c) to checkpoint, (q) to checkpoint and quit (after next iteration)
+
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 16.26022
+Policy Entropy: 2.97177
+Value Function Loss: 0.00532
+
+Mean KL Divergence: 0.00155
+SB3 Clip Fraction: 0.01424
+Policy Update Magnitude: 0.24941
+Value Function Update Magnitude: 0.16408
+
+Collected Steps per Second: 18,335.23928
+Overall Steps per Second: 12,195.28663
+
+Timestep Collection Time: 2.72873
+Timestep Consumption Time: 1.37383
+PPO Batch Consumption Time: 0.33737
+Total Iteration Time: 4.10257
+
+Cumulative Model Updates: 48,006
+Cumulative Timesteps: 400,475,208
+
+Timesteps Collected: 50,032
+--------END ITERATION REPORT--------
+
+
+Saving checkpoint 400475208...
+Checkpoint 400475208 saved!

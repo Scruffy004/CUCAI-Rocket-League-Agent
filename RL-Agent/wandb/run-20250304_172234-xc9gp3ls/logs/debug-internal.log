@@ -1,0 +1,51 @@
+{"time":"2025-03-04T17:22:34.2943959-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-04T17:22:34.2943959-05:00","level":"INFO","msg":"created symlink","path":"D:\\RLRL\\CUCAI-Rocket-League-Agent\\RL-Agent\\wandb\\run-20250304_172234-xc9gp3ls\\logs\\debug-core.log"}
+{"time":"2025-03-04T17:22:35.0058304-05:00","level":"INFO","msg":"created new stream","id":"xc9gp3ls"}
+{"time":"2025-03-04T17:22:35.0058304-05:00","level":"INFO","msg":"stream: started","id":"xc9gp3ls"}
+{"time":"2025-03-04T17:22:35.0058304-05:00","level":"INFO","msg":"handler: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-04T17:22:35.0058304-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-04T17:22:35.0058304-05:00","level":"INFO","msg":"sender: started","stream_id":"xc9gp3ls"}
+{"time":"2025-03-04T17:22:35.5668555-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T19:19:40.1355588-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:20:12.3714525-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:20:15.6386624-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:20:47.1741857-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:21:26.1363792-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:21:49.3119036-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:22:15.7898657-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:23:57.5921389-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:24:10.5888149-05:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:24:29.9677461-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:24:33.5980693-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:25:04.2332226-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:25:04.4549056-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:25:41.7947094-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-04T19:26:23.183965-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:26:30.5567362-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:26:45.8271253-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:26:58.0356677-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:27:16.8408383-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:28:15.102907-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:28:22.5556195-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:28:47.2391538-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:29:44.8725709-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:30:00.958554-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-04T19:30:33.4178455-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:30:41.9636578-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:31:08.05043-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:31:46.7502567-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:32:35.792646-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:32:44.5150338-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:33:41.1584908-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T19:35:00.3950917-05:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/joalbom/rlgym-ppo/xc9gp3ls/file_stream"}
+{"time":"2025-03-04T19:35:11.1600473-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-04T19:36:41.1615843-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-04T23:48:17.1936679-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T23:48:17.1941806-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-04T23:48:17.9836468-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-04T23:48:18.1075653-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-04T23:48:19.1393429-05:00","level":"INFO","msg":"stream: closing","id":"xc9gp3ls"}
+{"time":"2025-03-04T23:48:19.1393429-05:00","level":"INFO","msg":"handler: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-04T23:48:19.1393429-05:00","level":"INFO","msg":"sender: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-04T23:48:19.1393429-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xc9gp3ls"}
+{"time":"2025-03-04T23:48:19.1398644-05:00","level":"INFO","msg":"stream: closed","id":"xc9gp3ls"}

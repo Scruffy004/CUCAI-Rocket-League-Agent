@@ -118,3 +118,48 @@ class SpeedTowardBallReward(RewardFunction):
             # Many good behaviors require moving away from the ball, so I highly recommend you don't punish moving away
             # We'll just not give any reward
             return 0
+    
+class BallCenterReward(RewardFunction):
+    def __init__(self):
+        super().__init__()
+
+    def reset(self, initial_state: GameState):
+        pass
+
+    def get_reward(self, player: PlayerData, state: GameState, previous_action) -> float:
+        ball_pos = state.ball.position
+        
+        if ball_pos[0] < 2500 and ball_pos[0] > -2500:
+            return abs(ball_pos[0]/2500)
+        else:
+            return 0
+
+class FlipResetReward(RewardFunction):
+    def __init__(self, obtain_flip_weight: float = 1.0, hit_ball_weight: float = 1.0):
+        self.obtain_flip_weight = obtain_flip_weight
+        self.hit_ball_weight = hit_ball_weight
+
+        self.prev_state = None
+        self.has_reset = None
+
+
+    def reset(self, initial_state: GameState):
+        self.prev_state = initial_state
+        self.has_reset = set()
+
+
+    def get_reward(self, player: PlayerData, state: GameState, previous_action):
+       
+        if player.on_ground:
+            self.has_reset.discard(player)
+        elif player.has_flip:
+            down = player.car_data.up()
+            car_ball = state.ball.position - player.car_data.position
+            car_ball /= np.linalg.norm(car_ball)
+            cossim_down_ball = np.dot(down, car_ball)
+            if cossim_down_ball > 0.5 ** 0.5:  # 45 degrees
+                self.has_reset.add(player)
+                return self.obtain_flip_weight
+
+        self.prev_state = state
+        return 0
