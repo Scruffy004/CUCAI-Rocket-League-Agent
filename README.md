@@ -1,1 +1,1 @@
-# CUCAI-Rocket-League-Agent
+RL² is a reinforcement learning (RL) project where we developed an intelligent agent to play Rocket League using Proximal Policy Optimization (PPO). The agent learns to make decisions and play the game autonomously, continuously improving through training to become a competitive player. The project was presented at the Canadian Undergraduate Conference on AI (CUCAI), where it won the People's Choice Award for its innovative approach and strong application of reinforcement learning techniques.
